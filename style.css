@@ -1,3 +1,7 @@
+.logo p {
+    font-size: 40px;
+    text-align: center;
+}
 .title {
     background: rgb(192, 221, 255);
     font-size: 17px;
@@ -26,7 +30,7 @@ body {
 }
 header img {
     height: 120px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 header ul {
     display: flex;
@@ -47,6 +51,7 @@ header ul li a {
 }
 header ul li a:hover {
     text-decoration:underline;
+    color: blue;
     }
 .shoukai h1 {
     text-align: center;
@@ -67,4 +72,14 @@ h2 {
 }
 .container p {
     font-size: 12px;
+}
+footer {
+    width: 800px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgb(46, 43, 43);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    border-top: 5px solid rgb(8, 8, 151);
 }
