@@ -1,33 +1,48 @@
-.logo p {
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 800px;
+    margin: 0 auto;
+    border-top: 10px solid rgb(8, 8, 151);
+}
+.midashi{
     font-size: 40px;
     text-align: center;
 }
+.logosyamei{
+    display: flex;
+}
+.logo p{
+    text-align: center;
+}
+.syamei{
+    padding-top: 23px;
+}
 .title {
-    background: rgb(192, 221, 255);
     font-size: 17px;
     margin: 0px;
     text-align: center;
+    width: 400px;
 }
 .title-1 {
     font-size: 30px;
     font-weight: 400;
     margin: 0px;
     text-align: center;
+    width: 400px;
 }
 .title-2 {
     font-size: 15px;
     margin: 0px 0px 20px 0px;
     text-align: center;
+    width: 400px;
 }
 a {
     text-decoration: none;
     color: #333;
 } 
-body {
-    width: 800px;
-    margin: 0 auto;
-    border-top: 10px solid rgb(8, 8, 151);
-}
 header img {
     height: 120px;
     margin-top: 0px;
@@ -55,6 +70,7 @@ header ul li a:hover {
     }
 .shoukai h1 {
     text-align: center;
+    line-height: 50px;
     font-size: 16px;
     font-weight: 200;
     border-top: solid rgb(255, 121, 121) 2px;
@@ -70,8 +86,15 @@ h2 {
     font-size: 16px;
     border-bottom: solid rgb(228, 32, 32);
 }
-.container p {
-    font-size: 12px;
+.senju{
+    display: flex;
+}
+.container-1{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.container-1 p {
+    font-size: 13px;
 }
 footer {
     width: 800px;
