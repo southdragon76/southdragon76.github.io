@@ -39,7 +39,9 @@ body {
     text-align: center;
     width: 400px;
 }
-a {
+.menu ul{
+}
+.menu a {
     text-decoration: none;
     color: #333;
 } 
@@ -51,8 +53,8 @@ header ul {
     display: flex;
 }
 header ul li {
-    width: 150px;
-    min-width: 150px;
+    width: 160px;
+    min-width: 160px;
     font-size: 14px;
     list-style: none;
     text-align: center;
@@ -68,10 +70,13 @@ header ul li a:hover {
     text-decoration:underline;
     color: blue;
     }
+.shoukai{
+    padding: 20px;
+}    
 .shoukai h1 {
     text-align: center;
     line-height: 50px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 200;
     border-top: solid rgb(255, 121, 121) 2px;
     border-bottom: solid rgb(247, 107, 107) 2px;
@@ -88,6 +93,7 @@ h2 {
 }
 .senju{
     display: flex;
+    padding-bottom: 30px;
 }
 .container-1{
     padding-top: 10px;
@@ -95,6 +101,39 @@ h2 {
 }
 .container-1 p {
     font-size: 13px;
+}
+.image img{
+    padding: 7px;
+}
+.text{
+    padding-left: 10px;
+}
+.text a{
+    font-size: 12px;
+    padding-left: 14px;
+}
+.text a:first-child{
+    padding-left: 0px;
+}
+.gijutsu{
+    display: flex;
+}
+.tokkyo{
+    width: 600px;
+    margin: 30px 0px 40px 2px;
+    text-align: left;
+    font-size: 16px;
+    border-bottom: solid rgb(228, 32, 32);
+}
+.container-2{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.container-2 p{
+    font-size: 13px;
+}
+.container-2 a{
+    font-size: 12px;
 }
 footer {
     width: 800px;
