@@ -4,12 +4,9 @@
 }
 body {
     width: 800px;
+    padding-top: 30px;
     margin: 0 auto;
     border-top: 10px solid rgb(8, 8, 151);
-}
-.midashi{
-    font-size: 40px;
-    text-align: center;
 }
 .logosyamei{
     display: flex;
