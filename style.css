@@ -78,6 +78,17 @@ header ul li a:hover {
     border-top: solid rgb(255, 121, 121) 2px;
     border-bottom: solid rgb(247, 107, 107) 2px;
 }
+.shoukai h1 a:hover{
+    color: deeppink;
+}
+.g{
+    color: #093;
+    font-weight: 600;
+}
+.b{ 
+    color: #0066CC;
+    font-weight: 600;
+}
 h2 {
     text-align: center;
 }
